@@ -1,0 +1,16 @@
+/* CSS declarations go here */
+
+@import 'https://fonts.googleapis.com/css?family=Merriweather:700|Noto+Serif:700|Roboto+Mono|Source+Serif+Pro';
+
+body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+.ui[class*="very padded"].segment {
+	background: url('assets/cream_dust.png') repeat;
+	/*background: #329efc;
+	background: -moz-linear-gradient(-45deg,  #329efc 0%, #fcfc88 100%);
+	background: -webkit-linear-gradient(-45deg,  #329efc 0%,#fcfc88 100%);
+	background: linear-gradient(135deg,  #329efc 0%,#fcfc88 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#fcfc88',GradientType=1 );*/
+}
