@@ -4,26 +4,50 @@
 
 body {
 	font-family: 'Roboto Mono', monospace;
+	color: #314B5B;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Noto Serif', serif !important;
+h1, h2, h3, h4, h5, h6, .menu {
+	font-family: 'Noto Serif', monospace !important;
+	font-weight: 400 !important;
+}
+
+h1 {
+	font-size: 1.8em !important;
 }
 
 .ui[class*="very padded"].segment {
-	background: #f6f6f6;
-	/*background: url('assets/cream_dust.png') repeat;
-	/*background: #329efc;
-	background: -moz-linear-gradient(-45deg,  #329efc 0%, #fcfc88 100%);
-	background: -webkit-linear-gradient(-45deg,  #329efc 0%,#fcfc88 100%);
-	background: linear-gradient(135deg,  #329efc 0%,#fcfc88 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#fcfc88',GradientType=1 );*/
+	background: #314B5B;
+	/*background: #f1f1f1;
+	background: -moz-linear-gradient(-45deg,  #f1f1f1 0%, #ffffff 100%);
+	background: -webkit-linear-gradient(-45deg,  #f1f1f1 0%,#ffffff 100%);
+	background: linear-gradient(135deg,  #f1f1f1 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1f1f1', endColorstr='#ffffff',GradientType=1 );*/
+}
+
+.ui.item.big {
+	font-size: 1.5em !important;
+	padding-left: 0 !important;
 }
 
 .ui.menu .item {
-	font-size: 1.2em;
+	font-size: 1.15em;
 }
 
 .rotate {
-	color: rgb(33, 133, 208);
+	color: #E14D4C;
+	font-family: 'Noto Serif', monospace;
+	margin: .5em 0 0;
+}
+
+.aja {
+	color: #314B5B !important;
+}
+
+.ui.header {
+	color: #f1f1f1;
+}
+
+.aja-blue {
+	color: #314B5B !important;
 }
