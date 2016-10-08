@@ -3,6 +3,19 @@ import { ReactiveVar } from 'meteor/reactive-var';
 
 import './main.html';
 
+Template.intro.onRendered(function () {
+  $(".rotate").textrotator({
+	  animation: "flipUp", // You can pick the way it animates when rotating through words. Options are dissolve (default), fade, flip, flipUp, flipCube, flipCubeUp and spin.
+	  separator: ",", // If you don't want commas to be the separator, you can define a new separator (|, &, * etc.) by yourself using this field.
+	  speed: 4000 // How many milliseconds until the next word show.
+	});
+});
+
+
+
+
+
+
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);

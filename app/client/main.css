@@ -1,13 +1,16 @@
 /* CSS declarations go here */
 
-@import 'https://fonts.googleapis.com/css?family=Merriweather:700|Noto+Serif:700|Roboto+Mono|Source+Serif+Pro';
+@import 'https://fonts.googleapis.com/css?family=Merriweather:300|Noto+Serif:400|Roboto+Mono|Source+Serif+Pro';
 
 body {
 	font-family: 'Roboto Mono', monospace;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Noto Serif', serif !important;
+}
+
 .ui[class*="very padded"].segment {
-	padding-top: 18em;
 	background: #f6f6f6;
 	/*background: url('assets/cream_dust.png') repeat;
 	/*background: #329efc;
@@ -15,4 +18,12 @@ body {
 	background: -webkit-linear-gradient(-45deg,  #329efc 0%,#fcfc88 100%);
 	background: linear-gradient(135deg,  #329efc 0%,#fcfc88 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#329efc', endColorstr='#fcfc88',GradientType=1 );*/
+}
+
+.ui.menu .item {
+	font-size: 1.2em;
+}
+
+.rotate {
+	color: rgb(33, 133, 208);
 }
