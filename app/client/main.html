@@ -3,35 +3,47 @@
 </head>
 
 <body>
-  {{> head}}
   {{> intro}}
 </body>
 
-<template name="head">
-  <div class="ui vertical segment">
-    <div class="ui grid secondary container stackable menu">
-      <div class="ui item big">
+<template name="intro">
+  <div class="ui large top fixed menu transition hidden">
+    <div class="ui grid secondary container menu">
+      <div class="ui item">
         <img src="/assets/aja_logo.svg">
       </div>
       <div class="right menu">
-        <a class="item">process</a>
         <a class="item">services</a>
+        <a class="item">projects</a>
+        <a class="item">process</a>
         <a class="item">team</a>
         <a class="item">clients</a>
         <a class="item">contact</a>
       </div>
     </div>
   </div>
-</template>
-
-<template name="intro">
-  <div class="ui very padded vertical segment">
+  <div class="ui vertical segment">
+    <div class="ui grid secondary container stackable menu">
+      <div class="ui item big">
+        <img src="/assets/aja_logo.svg">
+      </div>
+      <div class="right menu">
+        <a class="item">services</a>
+        <a class="item">projects</a>
+        <a class="item">process</a>
+        <a class="item">team</a>
+        <a class="item">clients</a>
+        <a class="item">contact</a>
+      </div>
+    </div>
+  </div>
+  <div class="ui very padded neg vertical segment">
     <div class="ui very padded basic segment">
       <div class="ui stackable one column grid container">
         <div class="column">
           <h1 class="ui left aligned header">
-            We are AJA. We help startups and companies to ship 
-            <span class="ui blue rotate">apps., platforms., extensions., shops., websites., everything else.</span>
+            We are ja², the design & development studio for digital products. We support <span class="ui blue rotate">startups/companies/studios/authorities</span><br/>
+            to conceive, build and ship meaningful <span class="blue rotate">apps./platforms./extensions./shops./websites./everything else.</span>
           </h1>
         </div>
       </div>
@@ -41,17 +53,17 @@
         <a class="ui card floating shadow" href="http://www.dog.com">
           <div class="content">
             <div class="ui aja-blue header">
-              <i class="idea icon"></i>innovative
+              <i class="idea icon"></i>we innovate
             </div>
             <div class="description">
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
               </p>
             </div>
           </div>
           <div class="extra content">
-            <div class="right floated author">
-              learn more about how we innovate
+            <div class="center aligned">
+              what we offer
             </div>
           </div>
         </a>
@@ -61,17 +73,17 @@
         <a class="ui card" href="http://www.dog.com">
           <div class="content">
             <div class="ui aja-blue header">
-              <i class="cubes icon"></i>aware
+              <i class="cubes icon"></i>we are experienced
             </div>
             <div class="description">
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
               </p>
             </div>
           </div>
           <div class="extra content">
-            <div class="right floated author">
-              learn more about how we innovate
+            <div class="center aligned">
+              view recent projects
             </div>
           </div>
         </a>
@@ -81,17 +93,17 @@
         <a class="ui card" href="http://www.dog.com">
           <div class="content">
             <div class="ui aja-blue header">
-              <i class="lightning icon"></i>lean & fast
+              <i class="lightning icon"></i>we work lean
             </div>
             <div class="description">
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
               </p>
             </div>
           </div>
           <div class="extra content">
-            <div class="right floated author">
-              learn more about how we innovate
+            <div class="center aligned">
+              how we work
             </div>
           </div>
         </a>
@@ -101,21 +113,49 @@
         <a class="ui card" href="http://www.dog.com">
           <div class="content">
             <div class="ui aja-blue header">
-              <i class="users icon"></i>great network
+              <i class="users icon"></i>we scale
             </div>
             <div class="description">
               <p>
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
               </p>
             </div>
           </div>
           <div class="extra content">
-            <div class="right floated author">
-              learn more about how we innovate
+            <div class="center aligned">
+              our network
             </div>
           </div>
         </a>
       </div>
     </div>
   </div>
+  <div class="ui very padded basic segment">
+    <div class="ui stackable one column grid container">
+      <div class="ui center aligned column">
+        <h1>Our process</h1>
+        <div class="ui three steps">
+          <div class="step">
+            <i class="search icon"></i>
+            <div class="content">
+              <div class="title">research</div>
+            </div>
+          </div>
+          <div class="step">
+            <i class="spinner icon"></i>
+            <div class="content">
+              <div class="title">iterate</div>
+            </div>
+          </div>
+          <div class="step">
+            <i class="send icon"></i>
+            <div class="content">
+              <div class="title">ship</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </template>
