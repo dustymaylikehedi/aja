@@ -7,7 +7,9 @@ body {
 }
 
 .ui[class*="very padded"].segment {
-	background: url('assets/cream_dust.png') repeat;
+	padding-top: 18em;
+	background: #f6f6f6;
+	/*background: url('assets/cream_dust.png') repeat;
 	/*background: #329efc;
 	background: -moz-linear-gradient(-45deg,  #329efc 0%, #fcfc88 100%);
 	background: -webkit-linear-gradient(-45deg,  #329efc 0%,#fcfc88 100%);
